@@ -940,6 +940,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!4 &528881260 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7988624d287b52f4fbc0564b901ba3c0, type: 3}
+  m_PrefabInstance: {fileID: 724163416}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &724163416
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1753,11 +1758,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1600931025}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.486, y: -0.019, z: -6.934}
-  m_LocalScale: {x: 0.57, y: 0.57, z: 0.57}
+  m_LocalRotation: {x: -0.07045971, y: -0.004858441, z: 0.06861835, w: 0.9951399}
+  m_LocalPosition: {x: 0.77112985, y: 1.2966073, z: -3.9725714}
+  m_LocalScale: {x: 89.46295, y: 89.46297, z: 89.46297}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 528881260}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

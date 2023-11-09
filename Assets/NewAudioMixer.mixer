@@ -1,5 +1,38 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!244 &-5555501723714943721
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 99fc5de0397e2ae4ea15eea9d5268cc6
+  m_EffectName: Attenuation
+  m_MixLevel: 9b9157a34ae8cd84cb3d2b0c907eaf0b
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!243 &-3410358907062074275
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Jungle
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: fcc7cdadefd023d4ba99a0e497d495b2
+  m_Children: []
+  m_Volume: eaa95a08077da6b49951d747a1099e84
+  m_Pitch: 7444e802cdafe084b8eecd18edb13e05
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -5555501723714943721}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!241 &24100000
 AudioMixerController:
   m_ObjectHideFlags: 0
@@ -22,6 +55,7 @@ AudioMixerController:
     - 32698b22f334453479f1165366322f6b
     - 14b3ced1506f6724ebee0e1cd6c257c6
     - d6419b9ddc1376d41a84eac9cf4da448
+    - fcc7cdadefd023d4ba99a0e497d495b2
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -38,6 +72,7 @@ AudioMixerGroupController:
   - {fileID: 7203936721019049643}
   - {fileID: 7906156264676691049}
   - {fileID: 196356488330657993}
+  - {fileID: -3410358907062074275}
   m_Volume: 01a2421b92efee94d8e7414fdd7c617a
   m_Pitch: 60906abb9b9407f4886978d5aa457704
   m_Send: 00000000000000000000000000000000
